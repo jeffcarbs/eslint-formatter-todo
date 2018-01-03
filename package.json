@@ -8,5 +8,8 @@
     "type": "git"
   },
   "author": "Jeff Carbonella",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "eslint-formatter-todo",
+  "version": "1.0.0",
+  "description": "Generate a configuration file acting as a TODO list.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/jeffcarbs/eslint-formatter-todo",
+    "type": "git"
+  },
+  "author": "Jeff Carbonella",
+  "license": "MIT"
+}

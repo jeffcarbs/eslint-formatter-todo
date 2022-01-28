@@ -12,7 +12,7 @@ module.exports = (results) => {
   const sortedRuleIds = Object.keys(rules).sort();
 
   const overrides = sortedRuleIds.map((ruleId) => ({
-    rules: { [ruleId]: 'off' },
+    rules: { [ruleId]: 'warn' },
     files: [...new Set(rules[ruleId])].sort(),
   }));
 
